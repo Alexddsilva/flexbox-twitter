@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E6ECF0;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+input, button {
+  outline: 0;
+}
+
+.content {
+  height: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.content img#logo-bird {
+  height: 34px;
+}
+
+header#main-header {
+  height: 46px; 
+  background: #FFF;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+}
+
+header#main-header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header#main-header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+header#main-header nav li{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #667580;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+header#main-header nav li:first-child {
+  margin: 0;
+}
+
+header#main-header nav li img {
+  height: 20px;
+  margin-right: 7px;
+}
+
+header#main-header div.side {
+  display: flex;
+}
+
+header#main-header div.side img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+header#main-header div.side button {
+  height: 34px;
+  background: #3bb9e3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFF;
+  border: 0;
+  border-radius: 16px;
+}
+
+header#main-header div.side input {
+  width: 220px;
+  border: solid 1px #e6ecf0;
+  height: 34px;
+  padding: 0 35px 0 12px;
+  border-radius: 16px;
+  color: #657581;
+  font-size: 12px;
+  background: #F5f8fa url("/assets/search.svg") no-repeat 190px center;
+}
+
+div.banner {
+  height: 380px;
+  width: 100%;
+  background: #3bb9e3;
+}
